@@ -7,7 +7,6 @@ use Module::Build 0.3601;
 
 my %module_build_args = (
   "build_requires" => {
-    "Capture::Tiny" => 0,
     "Crypt::SaltedHash" => 0,
     "DBIx::Class::Core" => 0,
     "DBIx::Class::Schema" => 0,
@@ -15,7 +14,6 @@ my %module_build_args = (
     "Dancer::Test" => 0,
     "Module::Build" => "0.3601",
     "Test::More" => "0.88",
-    "blib" => 0,
     "warnings" => 0
   },
   "configure_requires" => {
@@ -26,7 +24,7 @@ my %module_build_args = (
     "Yanick Champoux <yanick\@cpan.org>"
   ],
   "dist_name" => "Dancer-Plugin-Auth-Extensible-Provider-DBIC",
-  "dist_version" => "0.1.1",
+  "dist_version" => "0.1.2",
   "license" => "perl",
   "module_name" => "Dancer::Plugin::Auth::Extensible::Provider::DBIC",
   "recommends" => {},

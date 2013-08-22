@@ -3,7 +3,7 @@ BEGIN {
   $Dancer::Plugin::Auth::Extensible::Provider::DBIC::AUTHORITY = 'cpan:YANICK';
 }
 {
-  $Dancer::Plugin::Auth::Extensible::Provider::DBIC::VERSION = '0.1.1';
+  $Dancer::Plugin::Auth::Extensible::Provider::DBIC::VERSION = '0.1.2';
 }
 # ABSTRACT: authenticate via DBIx::Class
 
@@ -86,7 +86,7 @@ Dancer::Plugin::Auth::Extensible::Provider::DBIC - authenticate via DBIx::Class
 
 =head1 VERSION
 
-version 0.1.1
+version 0.1.2
 
 =head1 DESCRIPTION
 

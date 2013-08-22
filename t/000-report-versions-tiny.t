@@ -48,7 +48,6 @@ sub pmver {
     return sprintf('%-45s => %-10s%-15s%s', $module, $pmver, $wanted, "\n");
 }
 
-eval { $v .= pmver('Capture::Tiny','any version') };
 eval { $v .= pmver('Crypt::SaltedHash','any version') };
 eval { $v .= pmver('DBIx::Class::Core','any version') };
 eval { $v .= pmver('DBIx::Class::Schema','any version') };
@@ -60,7 +59,6 @@ eval { $v .= pmver('Dancer::Test','any version') };
 eval { $v .= pmver('Module::Build','0.3601') };
 eval { $v .= pmver('Test::More','0.88') };
 eval { $v .= pmver('base','any version') };
-eval { $v .= pmver('blib','any version') };
 eval { $v .= pmver('strict','any version') };
 eval { $v .= pmver('version','0.9901') };
 eval { $v .= pmver('warnings','any version') };
