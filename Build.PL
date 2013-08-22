@@ -14,8 +14,6 @@ my %module_build_args = (
     "Dancer::Plugin::Auth::Extensible" => 0,
     "Dancer::Test" => 0,
     "Module::Build" => "0.3601",
-    "My::Schema" => 0,
-    "MyApp" => 0,
     "Test::More" => "0.88",
     "blib" => 0,
     "warnings" => 0
@@ -28,7 +26,7 @@ my %module_build_args = (
     "Yanick Champoux <yanick\@cpan.org>"
   ],
   "dist_name" => "Dancer-Plugin-Auth-Extensible-Provider-DBIC",
-  "dist_version" => "0.1.0",
+  "dist_version" => "0.1.1",
   "license" => "perl",
   "module_name" => "Dancer::Plugin::Auth::Extensible::Provider::DBIC",
   "recommends" => {},
