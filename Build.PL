@@ -24,7 +24,7 @@ my %module_build_args = (
     "Yanick Champoux <yanick\@cpan.org>"
   ],
   "dist_name" => "Dancer-Plugin-Auth-Extensible-Provider-DBIC",
-  "dist_version" => "0.1.2",
+  "dist_version" => "0.1.3",
   "license" => "perl",
   "module_name" => "Dancer::Plugin::Auth::Extensible::Provider::DBIC",
   "recommends" => {},
